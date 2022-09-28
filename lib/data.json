@@ -49,7 +49,7 @@
                 "title":"Blog",
                 "subtitle":"Psy Blog",
                 "plateform":["Web"],
-                "stack":["Node.js","React.js","Google Cloud Storage"],
+                "stack":["Node.js","React.js","MongoDB","Google Cloud Storage"],
                 "description":"Psy Online is a blog for professional and personal education on mental illness, as well as behavioral, social, and emotional issues.",
                 "year":"01/2022",
                 "image":"blog-psy.png",

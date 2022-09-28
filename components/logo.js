@@ -11,19 +11,10 @@ const LogoBox = styled.span`
   height: 30px;
   inline-height: 20px;
   align-items: center;
-
-  img {
-    transition: 200ms ease;
-    transform: rotate(60deg);
-  }
-
-  &:hover img {
-    transform: rotate(0deg);
-  }
 `;
 
 const Logo = () => {
-  const logo = `/images/glasses.svg`;
+  const logo = useColorModeValue('/images/js-black.png','/images/js-white.png');
   return (
     <Link href={'/'}>
       <a>
@@ -32,7 +23,6 @@ const Logo = () => {
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontWeight={'bold'}
-            ml={1}
           >
             Othmane Es-saidi
           </Text>
