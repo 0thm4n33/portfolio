@@ -1,4 +1,4 @@
-import {Container,Box,Heading,SimpleGrid,Divider} from '@chakra-ui/react';
+import {Container,Heading,SimpleGrid} from '@chakra-ui/react';
 import { GridItem } from '../components/grid-item';
 import Section from '../components/section';
 import data from '../lib/data.json';

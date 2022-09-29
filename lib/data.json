@@ -35,13 +35,17 @@
                 "title":"Speedy Drive",
                 "subtitle":"Rental car web application",
                 "plateform":["Web"],
-                "stack":["Node.js","React.js"],
+                "stack":["React.js"],
                 "year":"04/2022",
                 "github":"https://github.com/0thm4n33/speedy",
                 "website":"https://speedy-three.vercel.app/",
                 "description":"description for speedy drive app",
                 "image":"speedy-drive.png",
-                "images":[],
+                "images":[
+                    "speedy-0.png",
+                    "speedy-1.png",
+                    "speedy-2.png"
+                ],
                 "delay":0.1
             },
             {
