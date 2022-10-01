@@ -5,6 +5,7 @@ import { Meta, Title, WorkImage } from '../../components/work';
 import {ExternalLinkIcon} from '@chakra-ui/icons';
 import data from '../../lib/data.json';
 import Section from '../../components/section';
+import CustomizedInfo from '../../components/customized-info';
 export default function BlogWork(){
     const blog = data.works.find(w => w.id === 'blog');
     return(
@@ -16,15 +17,13 @@ export default function BlogWork(){
            <List mt={3} ml={5}>
                 <ListItem>
                     <Meta>Platform</Meta>
-                    {blog.plateform.map((p)=>(
-                        <Info key={p}>{p}</Info>
-                    ))}
+                    <CustomizedInfo 
+                        infos={blog.plateform}
+                    />
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
-                    {blog.stack.map(s=>(
-                        <Info key={s}>{s}</Info>
-                    ))}
+                    <CustomizedInfo infos={blog.stack} />
                 </ListItem>
                 <ListItem>
                     <Meta>Github</Meta>

@@ -9,7 +9,7 @@ export default class Chart extends React.Component {
         this.state = {
             output: '',
             series: [
-                13, 14, 16, 10
+                19,17,15,13,11
             ],
             options: {
                 labels:[],

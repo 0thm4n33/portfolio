@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/works/speedyDrive": "pages/works/speedyDrive.js"
+  "/works/blog": "pages/works/blog.js",
+  "/works": "pages/works.js"
 }

@@ -9,7 +9,7 @@ export default function SpeedyDrive(){
     const work = data.works.find( w => w.id === pathWork);
     return(
         <WorkTemplate 
-            work={work}
+            work={work} items={['Plateform','Github','Website']}
         />
     )
 }

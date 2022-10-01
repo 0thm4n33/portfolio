@@ -1,25 +1,24 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Box, Container, Link, List, ListItem } from "@chakra-ui/react";
 import React from "react";
+import CustomizedInfo from "../customized-info";
 import { Info } from "../info";
 import Paragraph from "../paragraph";
 import Section from "../section";
 import { Meta, Title, WorkImage } from "../work";
 
-export default function WorkTemplate({work}){
+export default function WorkTemplate({work,items}){
     return(
         <Container mt={2}>
             <Title title={work.title} year={work.year} />
             <Paragraph>{work.description}</Paragraph>
             <List>
-                {['Plateform','Github','Website'].map(entry => (
+                {items.map(entry => (
                     <ListItem key={entry}>
                         <Meta>{entry}</Meta>
                         {
                             entry === "Plateform" ?
-                                <Info key={entry}>
-                                    {work[entry.toLowerCase()]}
-                                </Info> :
+                                <CustomizedInfo infos={work[entry.toLowerCase()]} /> :
                                 <Link href={work[entry.toLowerCase()]}>
                                     {work[entry.toLowerCase()]} <ExternalLinkIcon />
                                 </Link>
