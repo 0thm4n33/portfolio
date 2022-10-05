@@ -19,7 +19,7 @@
             },
             {
                 "name":"Database",
-                "values":"Oracle,MySQl,SQL Server,MongoDB"
+                "values":["Oracle,MySQl,SQL Server,MongoDB"]
             }
         ],
         "works":[

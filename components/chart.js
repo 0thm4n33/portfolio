@@ -67,14 +67,12 @@ export default class Chart extends React.Component {
         data.skills.forEach((s)=>{
             if(s.name === title){
                 this.setState({
-                    output:s.values 
+                    output:s.values
                 })
             }
         });
-        return `${title}:`;   
+        return `${title}: <br />`;   
     }
-
-    
     
     render(){
         return(
