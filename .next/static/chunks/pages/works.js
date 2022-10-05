@@ -161,6 +161,17 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 
 /***/ }),
 
+/***/ "./public/images/gym/gym-0.png":
+/*!*************************************!*\
+  !*** ./public/images/gym/gym-0.png ***!
+  \*************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"src\":\"/_next/static/media/gym-0.84895dc5.png\",\"height\":871,\"width\":1906,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgym-0.84895dc5.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvaW1hZ2VzL2d5bS9neW0tMC5wbmcuanMiLCJtYXBwaW5ncyI6IjtBQUFBLCtEQUFlLENBQUMsa0tBQWtLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3B1YmxpYy9pbWFnZXMvZ3ltL2d5bS0wLnBuZz9iYTBjIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9neW0tMC44NDg5NWRjNS5wbmdcIixcImhlaWdodFwiOjg3MSxcIndpZHRoXCI6MTkwNixcImJsdXJEYXRhVVJMXCI6XCIvX25leHQvaW1hZ2U/dXJsPSUyRl9uZXh0JTJGc3RhdGljJTJGbWVkaWElMkZneW0tMC44NDg5NWRjNS5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/images/gym/gym-0.png\n"));
+
+/***/ }),
+
 /***/ "./public/images/hospital-booking.png":
 /*!********************************************!*\
   !*** ./public/images/hospital-booking.png ***!
@@ -302,6 +313,7 @@ var map = {
 	"./chu/chu-3.png": "./public/images/chu/chu-3.png",
 	"./glasses.svg": "./public/images/glasses.svg",
 	"./gym-fitness.png": "./public/images/gym-fitness.png",
+	"./gym/gym-0.png": "./public/images/gym/gym-0.png",
 	"./hospital-booking.png": "./public/images/hospital-booking.png",
 	"./js-black.png": "./public/images/js-black.png",
 	"./js-white.png": "./public/images/js-white.png",
@@ -341,7 +353,7 @@ webpackContext.id = "./public/images sync recursive ^\\.\\/.*$";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"skills":[{"name":"Programming Language","values":["C","C++","JAVA","C#"]},{"name":"Technologies","values":["JakartaEE(JEE)","Spring",".NET Core","Qt"]},{"name":"Web Developpement","values":["JavaScript","TypeScript","React.js","Angular","Node.js","Next.js"]},{"name":"Modelisation","values":["Design Patterns","UML","Merise"]},{"name":"Database","values":["Oracle,MySQl,SQL Server,MongoDB"]}],"works":[{"id":"gymFitness","title":"Gym web application","subtitle":"Gym web application","year":"05/2022","plateform":["web"],"stack":[".NET CORE","React.js","SQL SERVER"],"description":"description for gym fitness app","image":"gym-fitness.png","delay":0},{"id":"speedyDrive","title":"Speedy Drive","subtitle":"Rental car web application","plateform":["Web"],"stack":["React.js"],"year":"04/2022","github":"https://github.com/0thm4n33/speedy","website":"https://speedy-three.vercel.app/","description":"description for speedy drive app","image":"speedy-drive.png","images":["speedy-0.png","speedy-1.png","speedy-2.png"],"delay":0.1},{"id":"blog","title":"Blog","subtitle":"Psy Blog","plateform":["Web"],"stack":["Node.js","React.js","MongoDB","Google Cloud Storage"],"description":"Psy Online is a blog for professional and personal education on mental illness, as well as behavioral, social, and emotional issues.","year":"01/2022","image":"blog-psy.png","delay":0.2,"github":"https://github.com/0thm4n33/psy-blog","images":["blog_preview_1.png","blog_preview_2.png","blog_preview_3.png","blog_preview_4.png","blog_preview_5.png"]},{"id":"chu","title":"Hospital Booking CHU","subtitle":"Hospital booking application","year":"07/2021","plateform":["web","ios","android"],"github":"https://github.com/0thm4n33/hospital-booking","stack":["Spring boot","Angular.js","Ionic","MySQL"],"description":"description for hospital web app","image":"hospital-booking.png","images":["chu-0.png","chu-1.png","chu-2.png","chu-3.png"],"delay":0.3}]}');
+module.exports = JSON.parse('{"skills":[{"name":"Programming Language","values":["C","C++","JAVA","C#"]},{"name":"Technologies","values":["JakartaEE(JEE)","Spring",".NET Core","Qt"]},{"name":"Web Developpement","values":["JavaScript","TypeScript","Node.js","Next.js","React.js","Angular"]},{"name":"Modelisation","values":["Design Patterns","Agile","UML","Merise"]},{"name":"Database","values":["Oracle,MySQl,SQL Server,MongoDB"]}],"works":[{"id":"gym","title":"Gym web application","subtitle":"Gym web application","year":"05/2022","plateform":["web"],"stack":[".NET Core","React.js","SQL Server"],"description":"description for gym fitness app","github":"https://github.com/0thm4n33/gym-web-application","image":"gym-fitness.png","images":["gym-0.png"],"delay":0},{"id":"speedyDrive","title":"Speedy Drive","subtitle":"Rental car web application","plateform":["Web"],"stack":["React.js"],"year":"04/2022","github":"https://github.com/0thm4n33/speedy","website":"https://speedy-three.vercel.app/","description":"description for speedy drive app","image":"speedy-drive.png","images":["speedy-0.png","speedy-1.png","speedy-2.png"],"delay":0.1},{"id":"blog","title":"Blog","subtitle":"Psy Blog","plateform":["Web"],"stack":["Node.js","React.js","MongoDB","Google Cloud Storage"],"description":"Psy Online is a blog for professional and personal education on mental illness, as well as behavioral, social, and emotional issues.","year":"01/2022","image":"blog-psy.png","delay":0.2,"github":"https://github.com/0thm4n33/psy-blog","images":["blog_preview_1.png","blog_preview_2.png","blog_preview_3.png","blog_preview_4.png","blog_preview_5.png"]},{"id":"chu","title":"Hospital Booking CHU","subtitle":"Hospital booking application","year":"07/2021","plateform":["web","ios","android"],"github":"https://github.com/0thm4n33/hospital-booking","stack":["Spring boot","Angular.js","Ionic","MySQL"],"description":"description for hospital web app","image":"hospital-booking.png","images":["chu-0.png","chu-1.png","chu-2.png","chu-3.png"],"delay":0.3}]}');
 
 /***/ })
 

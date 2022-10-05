@@ -11,11 +11,11 @@
             },
             {
                 "name":"Web Developpement",
-                "values":["JavaScript","TypeScript","React.js","Angular","Node.js","Next.js"]
+                "values":["JavaScript","TypeScript","Node.js","Next.js","React.js","Angular"]
             },
             {
                 "name":"Modelisation",
-                "values":["Design Patterns","UML","Merise"]
+                "values":["Design Patterns","Agile","UML","Merise"]
             },
             {
                 "name":"Database",
@@ -24,14 +24,18 @@
         ],
         "works":[
             {
-                "id":"gymFitness",
+                "id":"gym",
                 "title":"Gym web application",
                 "subtitle":"Gym web application",
                 "year":"05/2022",
                 "plateform":["web"],
-                "stack":[".NET CORE","React.js","SQL SERVER"],
+                "stack":[".NET Core","React.js","SQL Server"],
                 "description":"description for gym fitness app",
+                "github":"https://github.com/0thm4n33/gym-web-application",
                 "image":"gym-fitness.png",
+                "images":[
+                    "gym-p.png"
+                ],
                 "delay":0
             },
             {

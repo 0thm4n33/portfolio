@@ -8,6 +8,7 @@ import Section from "../section";
 import { Meta, Title, WorkImage } from "../work";
 
 export default function WorkTemplate({work,items}){
+    console.log(`work : ${work.id}`)
     return(
         <Container mt={2}>
             <Title title={work.title} year={work.year} />
