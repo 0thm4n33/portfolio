@@ -6,9 +6,10 @@ import { Info } from "../info";
 import Paragraph from "../paragraph";
 import Section from "../section";
 import { Meta, Title, WorkImage } from "../work";
+import data from '../../lib/data.json'
 
-export default function WorkTemplate({work,items}){
-    console.log(`work : ${work.id}`)
+export default function WorkTemplate({id,items}){
+    const work = data.works.find( w => w.id === id);
     return(
         <Container mt={2}>
             <Title title={work.title} year={work.year} />

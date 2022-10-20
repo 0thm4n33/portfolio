@@ -40,7 +40,6 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
 const NavBar = (props) => {
   const linkGithub = 'https://github.com/0thm4n33/';
   const { path } = props;
-  console.log(`path: ${path}`);
   return (
     <Box
       position={'fixed'}

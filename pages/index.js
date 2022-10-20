@@ -33,7 +33,7 @@ const Page = () => {
             flexShrink={0}
             >
             <Image 
-                borderColor={useColorModeValue('blackAlpha.900','blue.400')}
+                borderColor={useColorModeValue('blackAlpha.100','whiteAlpha.300')}
                 borderWidth={2}
                 borderRadius={'full'}
                 borderStyle='solid'
@@ -41,7 +41,7 @@ const Page = () => {
                 alt='image profile' 
                 maxWidth={'100px'} 
                 src={'/images/profile_image.jpg'}
-                />
+            />
         </Box>
       </Box>
       <Section delay={0.1}>

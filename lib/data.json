@@ -1,4 +1,15 @@
 {
+    "informations":
+    [
+        {
+            "title":[
+                {
+                    "EN":"Hello, I'm a full-stack developper based in French",
+                    "FR":"Salut, Je suis un developpeur full-stack base en France"
+                }
+            ]
+        }
+    ],
     "skills":
         [
             {             
